@@ -2,3 +2,5 @@
 my notes
 
 https://docusaurus.io/docs
+
+jup
