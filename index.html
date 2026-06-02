@@ -1,25 +1,69 @@
-<nav>
-    <button onclick="showSection('ernaehrung')">
-        Ernährung
-    </button>
-</nav>
+<!DOCTYPE html>
 
-<section id="ernaehrung">
-    <h1>Ernährung</h1>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medizinische Visualisierungen</title>
 
-    <h2>TPE</h2>
-    <ul>
-        <li>Kalorienbedarf wird nur durch Nichtproteinkalorien gedeckt also Carina und fata</li>
-        <li>1,4 kcal pro kg KG</li>
-    </ul>
-</section>
+```
+<script src="https://cdn.tailwindcss.com"></script>
 
-<script>
-function showSection(id) {
-    document.querySelectorAll('section').forEach(section => {
-        section.style.display = 'none';
-    });
+<style>
+    body {
+        background: linear-gradient(135deg, #f5f7fa 0%, #e9eef5 100%);
+    }
+</style>
+```
 
-    document.getElementById(id).style.display = 'block';
-}
-</script>
+</head>
+
+<body class="min-h-screen flex items-center justify-center">
+
+```
+<main class="max-w-4xl mx-auto px-6">
+
+    <div class="bg-white rounded-3xl shadow-xl p-10 md:p-16 text-center">
+
+        <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-100 mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 class="w-10 h-10 text-blue-700"
+                 fill="none"
+                 viewBox="0 0 24 24"
+                 stroke="currentColor">
+                <path stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 17v-6h13M9 5v6h13M5 5h.01M5 11h.01M5 17h.01"/>
+            </svg>
+        </div>
+
+        <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
+            Medizinische Visualisierungen
+        </h1>
+
+        <p class="text-lg text-slate-600 max-w-2xl mx-auto mb-10">
+            Interaktive Diagramme und Datenvisualisierungen für medizinische
+            Dokumentationen, Studien und wissenschaftliche Auswertungen.
+        </p>
+
+        <a href="nachmache.html"
+           class="inline-flex items-center px-8 py-4 rounded-xl
+                  bg-blue-700 hover:bg-blue-800
+                  text-white text-lg font-semibold
+                  shadow-lg transition duration-200">
+
+            Plot öffnen
+        </a>
+
+    </div>
+
+    <footer class="text-center text-slate-500 text-sm mt-8">
+        GitHub Pages Demo
+    </footer>
+
+</main>
+```
+
+</body>
+</html>
